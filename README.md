@@ -7,7 +7,7 @@ We developed an integrative analytical framework to disentangle the influence of
 Based on Extreme gradient boosting (XGBoost) algorithm and Shapley Additive Explanations (SHAP) to decompose predictions into the contributions of each SOC attribute and environmental covariates, thereby quantifying their respective controls on forest biomass across global environmental gradients. Based on this, we delineated SOC “hotspots” where specific attributes exert disproportionately strong control on biomass, providing the first spatially explicit global view of the functional geography of soil–vegetation coupling.
 <br><br>
 ## Workflow
-<p align="center"><img src="figure/workflow.png" width="550"></p>
+<p align="center"><img src="figure/workflow.png" width="560"></p>
 
 
 ## Description
