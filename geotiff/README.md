@@ -1,1 +1,1 @@
-
+GeoTIFF files of 33 environmental covariates at 1 km resolution. Due to file size limitations, the download links for the original data sources are provided in Table S1 of the supplementary materials.
