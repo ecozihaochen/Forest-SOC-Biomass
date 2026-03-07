@@ -7,14 +7,14 @@ We developed an integrative analytical framework to disentangle the influence of
 Based on Extreme gradient boosting (XGBoost) algorithm and Shapley Additive Explanations (SHAP) to decompose predictions into the contributions of each SOC attribute and environmental covariates, thereby quantifying their respective controls on forest biomass across global environmental gradients. Based on this, we delineated SOC “hotspots” where specific attributes exert disproportionately strong control on biomass, providing the first spatially explicit global view of the functional geography of soil–vegetation coupling.
 <br><br>
 ## Workflow
-<p align="center"><img src="figure/workflow.png" width="550"></p>
+<p align="center"><img src="figure/workflow.png" width="560"></p>
 
 
 ## Description
-- figure: Output folder where all generated figures are saved.
+- figure: The folder contains main figures.
 - geotiff: Folder containing the GeoTIFF files of the 33 environmental covariates used in the modeling.
 - input: CSV file containing 41,899 observations after preprocessing and PCA analysis, including forest biomass, SOC attributes (flux, stock, and turnover time), and 9 principal components.
-- output: GeoTIFF files of SHAP values for three SOC attributes (flux, stock, and turnover time) and CATE values for flux and stock at 1 km resolution. Due to file size limitations, the files have been uploaded to Zenodo (link).
+- output: GeoTIFF files of SHAP values for three SOC attributes (flux, stock, and turnover time) and CATE values for flux and stock at 1 km resolution. Due to file size limitations, the files are archived on [Zenodo](https://doi.org/10.5281/zenodo.18895749).
 
 ## License
 The code and data shared in this study by [Zihao Chen](https://ecozihaochen.github.io/) are licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1).
