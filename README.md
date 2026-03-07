@@ -12,8 +12,8 @@ Based on Extreme gradient boosting (XGBoost) algorithm and Shapley Additive Expl
 
 ## Description
 - figure: The folder contains main figures.
-- geotiff: Folder containing the GeoTIFF files of the 33 environmental covariates used in the modeling.
-- input: CSV file containing 41,899 observations after preprocessing and PCA analysis, including forest biomass, SOC attributes (flux, stock, and turnover time), and 9 principal components.
+- geotiff: The folder contains GeoTIFF files of the 33 environmental covariates used in the modeling.
+- input: The folder contains CSV files of 41,899 observations after preprocessing and PCA analysis, including forest biomass, SOC attributes (flux, stock, and turnover time), and 9 principal components.
 - output: GeoTIFF files of SHAP values for three SOC attributes (flux, stock, and turnover time) and CATE values for flux and stock at 1 km resolution. Due to file size limitations, the files are archived on [Zenodo](https://doi.org/10.5281/zenodo.18895749).
 <br><br>
 - 2_model_get_shap_of_soc.R: A series of XGBoost models trained on the 9 principal components and three SOC attributes using the R package ‘caret’. Then computed SHAP values for each observation and each SOC attribute.
