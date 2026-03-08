@@ -1,4 +1,4 @@
-# causal effect of soc flux and stock on forest biomass, this script use soc flux as an example
+# causal forest of soc flux and stock on forest biomass, this script use soc flux as an example
 
 # Load package
 library("grf")
@@ -141,6 +141,7 @@ if (length(var_list) > 0) {
   out_name <- paste0("./output/causal_effect/cate_soc_flux_sd.tif")
   writeRaster(merged_varience, filename = out_name, overwrite = TRUE, gdal = c("COMPRESS=DEFLATE", "TILED=YES"))
 }
+
 
 
 
